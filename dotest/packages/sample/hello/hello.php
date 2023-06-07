@@ -1,8 +1,11 @@
 <?php
+
+  include "include.php" ;
+
   function main(array $args) : array
   {
       $name = $args["name"] ?? "stranger";
-      $greeting = "Hello $name!";
+      $greeting = testIncludeFn("Hello $name!");
       // echo $greeting;
-      return ["body" => $args];
+      return ["body" => $greeting];
   }

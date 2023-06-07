@@ -11,8 +11,6 @@ packages:
           binary: false
           main: ""
           runtime: php:default
-          web: true
-          webSecure: true
           parameters: {}
           environment: {}
           annotations: {}

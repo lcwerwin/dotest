@@ -4,4 +4,3 @@
         return $param . "AAAA";
     }
 
-?>

@@ -4,5 +4,5 @@
       $name = $args["name"] ?? "stranger";
       $greeting = "Hello $name!";
       // echo $greeting;
-      return $args;
+      return ["body" => $args];
   }

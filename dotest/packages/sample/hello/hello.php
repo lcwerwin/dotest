@@ -11,3 +11,8 @@
       // $greeting = "Hello $name!";
       return ["body" => $greeting];
   }
+
+  function testIncludeFn($param)
+  {
+    return "AAAA" . $param ; 
+  }

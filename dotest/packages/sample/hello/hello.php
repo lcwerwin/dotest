@@ -7,10 +7,10 @@
       $name = $args["name"] ?? "stranger";
       $greeting = testIncludeFn("Hello $name!") ;
       $greeting2 = testingFunction2();
-      echo $greeting2;
+      print_r ($greeting2);
       
       // $greeting = "Hello $name!";
-      return ["body" => $greeting . $greeting2];
+      return ["body" => $greeting ];
   }
 
   function testIncludeFn($param)

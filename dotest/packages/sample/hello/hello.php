@@ -1,11 +1,11 @@
 <?php
 
-  // include "include.php" ;
+  include "common/common.php" ;
 
   function main(array $args) : array
   {
       $name = $args["name"] ?? "stranger";
-      $greeting = testIncludeFn("Hello $name!");
+      $greeting = testIncludeFn("Hello $name!") . testingFunction2();
       // echo $greeting;
       
       // $greeting = "Hello $name!";

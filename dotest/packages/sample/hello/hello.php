@@ -6,11 +6,11 @@
   {
       $name = $args["name"] ?? "stranger";
       $greeting = testIncludeFn("Hello $name!") ;
-      testingFunction2();
+      $greeting2 = testingFunction2();
       // echo $greeting;
       
       // $greeting = "Hello $name!";
-      return ["body" => $greeting];
+      return ["body" => $greeting . $greeting2];
   }
 
   function testIncludeFn($param)

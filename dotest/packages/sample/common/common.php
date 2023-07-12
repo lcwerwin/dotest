@@ -1,5 +1,5 @@
 <?php
-    function testingFunction2()
+    function testingFunction2(): string
     {
         return "A";
     }

@@ -1,6 +1,6 @@
 <?php
 
-  include "common/common.php" ;
+  // include "common/common.php" ;
 
   function main(array $args) : array
   {
@@ -10,7 +10,7 @@
       error_log("Start");
       
       // $greeting = "Hello $name!";
-      return ["body" => $greeting ];
+      return ["body" => $greeting . testInclude() ];
   }
 
   function testIncludeFn($param)

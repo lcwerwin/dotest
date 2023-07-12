@@ -6,7 +6,7 @@
   {
       $name = $args["name"] ?? "stranger";
       $greeting = testIncludeFn("Hello $name!") ;
-      $greeting2 = testingFunction2();
+      // $greeting2 = testingFunction2();
       error_log("Start");
       
       // $greeting = "Hello $name!";

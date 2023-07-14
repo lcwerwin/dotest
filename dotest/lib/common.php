@@ -1,5 +1,6 @@
 <?php
     function testingFnFromCommon(): string
     {
-        return "A";
+        $test = "A"; 
+        return $test;
     }

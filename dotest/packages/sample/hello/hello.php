@@ -1,6 +1,6 @@
 <?php
 
-  // include "common/common.php" ;
+  include "include.php" ;
 
   function main(array $args) : array
   {

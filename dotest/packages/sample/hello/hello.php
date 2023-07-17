@@ -1,5 +1,6 @@
 <?php
  
+  include_once "include.php";
 
   function main(array $args) : array
   {

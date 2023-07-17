@@ -8,7 +8,7 @@
       $greeting = testIncludeFn("Hello $name!") ;
       
       // $greeting2 = testSameFolder($greeting);
-      error_log("Start")
+      error_log("Start");
       echo "test message";
       
       // $greeting = "Hello $name!";

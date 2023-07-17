@@ -6,15 +6,18 @@
       $name = $args["name"] ?? "stranger";
       $greeting = testIncludeFn("Hello $name!") ;
       
-      // $greeting2 = testingFnFromCommon();
+      $greeting2 = testSameFolder($greeting);
       error_log("Start");
       echo "test message";
       
       // $greeting = "Hello $name!";
-      return ["body" => $greeting  ];
+      return ["body" => $greeting  . $greeting2];
   }
 
   function testIncludeFn($param)
   {
     return "AAAA" . $param ; 
   }
+
+
+?>

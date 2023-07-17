@@ -1,6 +1,6 @@
 <?php
 
-  include "common.php" ;
+  include "../../../lib/common.php" ;
 
   function main(array $args) : array
   {

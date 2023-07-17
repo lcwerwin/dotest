@@ -12,7 +12,7 @@
       echo "test message";
       
       // $greeting = "Hello $name!";
-      return ["body" => $greeting ];
+      return ["body" => $greeting , "INCLUDE" => commonFunction()];
   }
 
   function testIncludeFn($param)

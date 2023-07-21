@@ -1,6 +1,6 @@
 <?php
  
-  include_once "include.php";
+  include_once "index.php";
 
   function main(array $args) : array
   {
@@ -13,6 +13,7 @@
       
       // $greeting = "Hello $name!";
       return ["body" => $greeting , "INCLUDE" => commonFunction()];
+      // return ["body" => $greeting ];
   }
 
   function testIncludeFn($param)
